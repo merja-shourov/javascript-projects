@@ -15,7 +15,7 @@
     <div class="container">
         <div class="developers d-flex justify-content-center">
             <div class="row mt-5">
-                <a  class="btn btn-dark w-25 mb-4" href="#">Add Developers</a>
+                <button class="btn btn-dark btn-block w-25 mb-2" data-bs-toggle="modal" data-bs-target="#addDevs">Add Developers</button>
                 <div class="card">
                     <h2 class="w-100 mt-4" style="text-align: center;" >Developers Table</h2>
                     <div class="card-body">
@@ -68,12 +68,32 @@
     </div>
 
     <!-- modal  -->
-    <div class="modal" id="add-devs">
-        <div class="modal-dialoge">
-            <div class="modal-content">
-                <div class="modal-title"></div>
-                <div class="modal-body"></div>
-                <div class="modal-footer"></div>
+    <div class="modal fade" id="addDevs">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow"">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title">Add Developers Data</h5>
+                </div>
+                <div class="modal-body bg-dark">
+                    <form action="#">
+                        <div class="form-group mb-3">
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Full Name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input class="form-control" type="number" name="age" id="age" placeholder="Age">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input class="form-control" type="text" name="location" id="location" placeholder="Location">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input class="form-control" type="text" name="skill" id="skill" placeholder="Skill">
+                        </div>
+                        <div class="form-group mb-3 m-auto w-50">
+                            <input class="form-control btn btn-light btn-block" style="text-transform: uppercase; font-weight: bold;" type="button" value="Add Data">
+                        </div>
+                    </form>
+                </div>
+                
             </div>
         </div>
     </div>
