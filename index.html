@@ -5,12 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>bootstrap</title>
+    <title>Developers API</title>
 </head>
 <body>
     
     
+    <div class="container">
+        <div class="developers d-flex justify-content-center">
+            <div class="row mt-5">
+                <a  class="btn btn-dark w-25 mb-4" href="#">Add Developers</a>
+                <div class="card">
+                    <h2 class="w-100 mt-4" style="text-align: center;" >Developers Table</h2>
+                    <div class="card-body">
+
+                        <div class="table">
+                            <table class="table table-striped table-dark">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Age</th>
+                                        <th>location</th>
+                                        <th>Profession</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="devs-output">
+                                    <tr>
+                                        <td>01</td>
+                                        <td>Merja Shourov</td>
+                                        <td>24</td>
+                                        <td>Dubai</td>
+                                        <td>Web Developer</td>
+                                        <td>
+                                           <a href="#" class="btn btn-success btn-sm"> <i class="fa fa-eye"></i></a>
+                                           <a href="#" class="btn btn-light btn-sm"> <i class="fa fa-edit"></i></a>
+                                           <a href="#" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>Rakibul</td>
+                                        <td>55</td>
+                                        <td>Sylhet</td>
+                                        <td>App Developer</td>
+                                        <td>
+                                           <a href="#" class="btn btn-success btn-sm"> <i class="fa fa-eye"></i></a>
+                                           <a href="#" class="btn btn-light btn-sm"> <i class="fa fa-edit"></i></a>
+                                           <a href="#" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal  -->
+    <div class="modal" id="add-devs">
+        <div class="modal-dialoge">
+            <div class="modal-content">
+                <div class="modal-title"></div>
+                <div class="modal-body"></div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./app.js"></script>
 </body>
