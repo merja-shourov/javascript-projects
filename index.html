@@ -29,34 +29,15 @@
                                         <th>Age</th>
                                         <th>location</th>
                                         <th>Profession</th>
+                                        <th>Photo</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
-                                <tbody id="devs-output">
-                                    <tr>
-                                        <td>01</td>
-                                        <td>Merja Shourov</td>
-                                        <td>24</td>
-                                        <td>Dubai</td>
-                                        <td>Web Developer</td>
-                                        <td>
-                                           <a href="#" class="btn btn-success btn-sm"> <i class="fa fa-eye"></i></a>
-                                           <a href="#" class="btn btn-light btn-sm"> <i class="fa fa-edit"></i></a>
-                                           <a href="#" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>01</td>
-                                        <td>Rakibul</td>
-                                        <td>55</td>
-                                        <td>Sylhet</td>
-                                        <td>App Developer</td>
-                                        <td>
-                                           <a href="#" class="btn btn-success btn-sm"> <i class="fa fa-eye"></i></a>
-                                           <a href="#" class="btn btn-light btn-sm"> <i class="fa fa-edit"></i></a>
-                                           <a href="#" class="btn btn-danger btn-sm"> <i class="fa fa-trash"></i></a>
-                                        </td>
-                                    </tr>
+                                <tbody id="dev_data">
+
+                                    <!-- JavaScript Dynamic code  -->
+                               
+
                                 </tbody>
                             </table>
                         </div>
@@ -67,7 +48,7 @@
         </div>
     </div>
 
-    <!-- modal  -->
+    <!-- modal for Add Student   -->
     <div class="modal fade" id="addDevs">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content shadow"">
@@ -75,7 +56,7 @@
                     <h5 class="modal-title">Add Developers Data</h5>
                 </div>
                 <div class="modal-body bg-dark">
-                    <form action="#">
+                    <form id="dev_add_form" action="#">
                         <div class="form-group mb-3">
                             <input class="form-control" type="text" name="name" id="name" placeholder="Full Name">
                         </div>
@@ -89,7 +70,7 @@
                             <input class="form-control" type="text" name="skill" id="skill" placeholder="Skill">
                         </div>
                         <div class="form-group mb-3 m-auto w-50">
-                            <input class="form-control btn btn-light btn-block" style="text-transform: uppercase; font-weight: bold;" type="button" value="Add Data">
+                            <input class="form-control btn btn-light btn-block" style="text-transform: uppercase; font-weight: bold;" type="submit" value="Add Data">
                         </div>
                     </form>
                 </div>
@@ -98,7 +79,48 @@
         </div>
     </div>
 
+    <!-- modal for vide data  -->
+    <div class="modal fade" id="dev_view">
+        <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-body shadow" id="dev_card">
+
+                  
+                   
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- data edit  -->
+    <div class="modal fade" id="dev_edit">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"></div>
+                <div class="modal-body"></div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- data delete  -->
+    <div class="modal fade" id="dev_delete">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"></div>
+                <div class="modal-body"></div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./function.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>
