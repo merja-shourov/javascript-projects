@@ -1,126 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <title>Developers API</title>
-</head>
-<body>
-    
-    
-    <div class="container">
-        <div class="developers d-flex justify-content-center">
-            <div class="row mt-5">
-                <button class="btn btn-dark btn-block w-25 mb-2" data-bs-toggle="modal" data-bs-target="#addDevs">Add Developers</button>
-                <div class="card">
-                    <h2 class="w-100 mt-4" style="text-align: center;" >Developers Table</h2>
-                    <div class="card-body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Project</title>
+    <link rel="stylesheet" href="./asset/style.css" />
+  </head>
+  <body>
+    <header>JavaScript Project</header>
+    <main class="main">
+        <ul>
+            <li src="#">home</li>
+            <li src="#">home</li>
+            <li src="#">home</li>
+            <li src="#">home</li>
+            <li src="#">home</li>
+        </ul>
+    </main>
+    <footer>&copy; by @merja_shourov</footer>
 
-                        <div class="table">
-                            <table class="table table-striped table-dark">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Name</th>
-                                        <th>Age</th>
-                                        <th>location</th>
-                                        <th>Profession</th>
-                                        <th>Photo</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="dev_data">
-
-                                    <!-- JavaScript Dynamic code  -->
-                               
-
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- modal for Add Student   -->
-    <div class="modal fade" id="addDevs">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content shadow"">
-                <div class="modal-header bg-dark text-white">
-                    <h5 class="modal-title">Add Developers Data</h5>
-                </div>
-                <div class="modal-body bg-dark">
-                    <form id="dev_add_form" action="#">
-                        <div class="form-group mb-3">
-                            <input class="form-control" type="text" name="name" id="name" placeholder="Full Name">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input class="form-control" type="number" name="age" id="age" placeholder="Age">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input class="form-control" type="text" name="location" id="location" placeholder="Location">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input class="form-control" type="text" name="skill" id="skill" placeholder="Skill">
-                        </div>
-                        <div class="form-group mb-3 m-auto w-50">
-                            <input class="form-control btn btn-light btn-block" style="text-transform: uppercase; font-weight: bold;" type="submit" value="Add Data">
-                        </div>
-                    </form>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
-    <!-- modal for vide data  -->
-    <div class="modal fade" id="dev_view">
-        <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-body shadow" id="dev_card">
-
-                  
-                   
-               </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- data edit  -->
-    <div class="modal fade" id="dev_edit">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header"></div>
-                <div class="modal-body"></div>
-                <div class="modal-footer"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- data delete  -->
-    <div class="modal fade" id="dev_delete">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header"></div>
-                <div class="modal-body"></div>
-                <div class="modal-footer"></div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./function.js"></script>
-    <script src="./app.js"></script>
-</body>
+    <script src="./asset/script.js"></script>
+  </body>
 </html>
