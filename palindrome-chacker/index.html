@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+      body {
+        background: #1B2B37;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      body h2{
+        text-align: center;
+        font-size: 48px;
+        color: white;
+      }
+
+      .check{
+        background-color: #fff;
+        width: 500px;
+        border-radius: 10px;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: 0px 3px 5px #1B2B37;
+        margin-bottom: 50px;
+        font-size: 20px;
+      }
+      .what-is-palindrome {
+        background-color: #00471B;
+        width: 500px;
+        border-radius: 10px;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+      }
+      .what-is-palindrome p{
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: 1.5px;
+        
+      }
+      .check input{
+        width: 60%;
+        padding: 5px 10px;
+        font-size: 16px;
+        border: none;
+        border-bottom: 2px solid #1B2B37;
+        margin-left: 50px;
+      }
+      .check button{
+        padding: 10px 20px;
+        background-color: #1B2B37;
+        color: white;
+        border-radius: 3px;
+        border: none;
+        font-size: 16px;
+    }
+    #result{
+        font-size: 20px;
+        color: black;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="palindrome">
+      <h2>Is it a Palindrome?</h2>
+      <div class="check">
+        <p>Enter in text to check for a palindrome:</p>
+        <input type="text" id="text-input" />
+        <button id="check-btn">Check</button>
+       
+        <p id="result">
+            <b>hehe</b> is palindrome.
+        </p>
+
+      </div>
+
+      <div class="what-is-palindrome">
+        <p>
+          💡 A <i>palindrome</i> is a word or sentence that's spelled the same
+          way both forward and backward, ignoring punctuation, case, and
+          spacing.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      const input = document.getElementById("text-input");
+      const btn = document.getElementById("check-btn");
+      const result = document.getElementById("result");
+
+      btn.addEventListener("click", () => {
+        let string = input.value;
+        if (string === "") alert("Please input a value");
+        //result.innerHTML = "Please input a value";
+
+        
+        let normalize = string.replace(/[^A-Za-z0-9]/g, "");
+        let reverse = [...normalize].reverse().join("");
+        
+        console.log(normalize.toLowerCase());
+        console.log(reverse.toLowerCase());
+        
+        if (normalize.toLowerCase() === reverse.toLowerCase()) {
+          result.innerHTML = `<b> ${string} </b> is a palindrome.`;
+        } else {
+          result.innerHTML = `<b> ${string} </b> is not a palindrome.`;
+        }
+        input.value = "";
+      });
+    </script>
+  </body>
+</html>
