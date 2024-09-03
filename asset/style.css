@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    color: hsl(320, 54%, 17%);
+}
+body{
+    margin: 0;padding: 0;
+    font-family: Arial,sans-serif;
+    background-color: #f9f9f9;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid hsl(320, 54%, 17%);
+
+}
+.logo h2{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: hsl(320, 54%, 17%);
+    padding: none;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    background-color: hsl(320, 54%, 17%);
+    padding: 10px 20px;
+    color: #f7f7f7;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    /* overflow: hidden; */
+}
+.left{
+    width: 40%;
+}
+.left ul{
+    padding: 0;
+    list-style: none;
+}
+.left ul li{
+    padding: 20px 10px;
+    margin-bottom: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid hsl(331, 32%, 23%);
+    color: hsl(331, 32%, 23%);
+    font-size: 18px;
+}
+.txt{
+    color: hsl(331, 32%, 23%);
+    font-size: 18px;
+    letter-spacing: 1.2px; 
+}
+.left ul li a.live{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: hsl(331, 32%, 23%);
+    color: #f7f7f7;
+    font-weight: bold;
+}
+.left ul li a.code{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #fff;
+    color:  hsl(331, 32%, 23%);
+    font-weight: bold;
+}
+.right{
+    width: 40%;
+}
+
+footer{
+    border-top: 2px solid hsl(320, 54%, 17%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.made-by{
+
+}
+.made-by p{
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+}
+.social{
+
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    display: inline-block;
+}
+.social i{
+    font-size: 30px;
+    padding: 10px;
+    color: hsl(320, 54%, 17%);;
+    background-color: #fff;
+    /* border-radius: 50%; */
+}
