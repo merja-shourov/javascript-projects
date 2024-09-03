@@ -91,21 +91,19 @@ header{
 footer{
     border-top: 2px solid hsl(320, 54%, 17%);
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    background-color:hsl(320, 54%, 17%);
+    position: fixed;
+    bottom: 0;
 }
-.made-by{
 
-}
-.made-by p{
-    font-size: 16px;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    /* text-transform: uppercase; */
-}
-.social{
-
+footer p{
+    color: #fff;
+    text-align: center;
+    background-color: hsl(319, 56%, 10%);
+    padding: 10px 0;
+    letter-spacing: 1.5px;
+    margin: 0;
 }
 .social ul{
     list-style: none;
@@ -114,9 +112,9 @@ footer{
     display: inline-block;
 }
 .social i{
-    font-size: 30px;
+    font-size: 20px;
+    border: 1px solid #f7f7f7;
     padding: 10px;
-    color: hsl(320, 54%, 17%);;
-    background-color: #fff;
-    /* border-radius: 50%; */
+    color: #f7f7f7;
+    margin: 0px 10px;
 }
