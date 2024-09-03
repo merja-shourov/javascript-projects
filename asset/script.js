@@ -9,7 +9,7 @@ const all_info = [
         "id": 2,
         "project_title": "Palindrome Checker",
         "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/palindrome-checker",
-        "live" : "https://merja-shourov.github.io/javascript-proejcts/palindrome-chacker/",
+        "live" : "https://merja-shourov.github.io/javascript-proejcts/palindrome-checker/",
     },
     {
         "id": 4,
