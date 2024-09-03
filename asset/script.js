@@ -33,7 +33,7 @@ const all_info = [
         "id": 7,
         "project_title": "To-Do List",
         "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/to-do-list",
-        "live" : "https://merja-shourov.github.io/javascript-project/to-do-list/",
+        "live" : "https://merja-shourov.github.io/javascript-proejcts/to-do-list/", 
     }
 ]
 
