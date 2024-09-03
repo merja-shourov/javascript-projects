@@ -28,6 +28,12 @@ const all_info = [
         "project_title": "Landing Page (Smooth Bekary)",
         "code" : "https://github.com/merja-shourov/landing-page-3",
         "live" : "https://merja-shourov.github.io/landing-page-3/",
+    },
+    {
+        "id": 7,
+        "project_title": "To-Do List",
+        "code" : "https://github.com/merja-shourov/javascript-project/to-do-list",
+        "live" : "https://merja-shourov.github.io/javascript-project/to-do-list/",
     }
 ]
 
