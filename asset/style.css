@@ -13,11 +13,12 @@ body{
 }
 header{
     width: 100%;
+    border-bottom: 2px solid hsl(320, 54%, 17%);
+}
+header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid hsl(320, 54%, 17%);
-
 }
 .logo h2{
     font-size: 32px;
@@ -114,7 +115,7 @@ footer p{
 .social i{
     font-size: 20px;
     border: 1px solid #f7f7f7;
-    padding: 10px;
+    padding: 8px;
     color: #f7f7f7;
     margin: 0px 10px;
 }

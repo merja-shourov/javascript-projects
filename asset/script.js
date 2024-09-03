@@ -1,7 +1,7 @@
 const all_info = [
     {
         "id": 1,
-        "project_title": "Digital Clock",
+        "project_title": "Digital Clock( Working )",
         "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/digital-clock",
         "live" : "https://merja-shourov.github.io/javascript-proejcts/digital-clock/",
     },
