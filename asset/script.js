@@ -8,7 +8,7 @@ const all_info = [
     {
         "id": 2,
         "project_title": "Palindrome Checker",
-        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/palindrome-chacker",
+        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/palindrome-checker",
         "live" : "https://merja-shourov.github.io/javascript-proejcts/palindrome-chacker/",
     },
     {
@@ -32,7 +32,7 @@ const all_info = [
     {
         "id": 7,
         "project_title": "To-Do List",
-        "code" : "https://github.com/merja-shourov/javascript-project/to-do-list",
+        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/to-do-list",
         "live" : "https://merja-shourov.github.io/javascript-project/to-do-list/",
     }
 ]
