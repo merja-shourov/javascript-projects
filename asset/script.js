@@ -15,7 +15,7 @@ const all_info = [
         "id": 4,
         "project_title": "Landing Page( Time Planner )",
         "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/timePlanner-landing",
-        "live" : "https://merja-shourov.github.io/javascript-projects/timePlanner-landing",
+        "live" : "https://merja-shourov.github.io/javascript-proejcts/timePlanner-landing/",
     },
     {
         "id": 5,
