@@ -2,26 +2,26 @@ const all_info = [
     {
         "id": 1,
         "project_title": "Digital Clock( Working )",
-        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/digital-clock",
-        "live" : "https://merja-shourov.github.io/javascript-proejcts/digital-clock/",
+        "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/digital-clock",
+        "live" : "https://merja-shourov.github.io/javascript-projects/digital-clock/",
     },
     {
         "id": 2,
         "project_title": "Palindrome Checker",
-        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/palindrome-checker",
-        "live" : "https://merja-shourov.github.io/javascript-proejcts/palindrome-checker/",
+        "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/palindrome-checker",
+        "live" : "https://merja-shourov.github.io/javascript-projects/palindrome-checker/",
     },
     {
         "id": 4,
         "project_title": "Landing Page( Time Planner )",
         "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/timePlanner-landing",
-        "live" : "https://merja-shourov.github.io/javascript-proejcts/timePlanner-landing/",
+        "live" : "https://merja-shourov.github.io/javascript-projects/timePlanner-landing/",
     },
     {
         "id": 5,
         "project_title": "Landing Page (BeGrocery)",    
         "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/grocery-landing",
-        "live" : "https://merja-shourov.github.io/javascript-projects/grocery-landing",
+        "live" : "https://merja-shourov.github.io/javascript-projects/grocery-landing/",
     },
     {
         "id": 6,
@@ -32,14 +32,14 @@ const all_info = [
     {
         "id": 7,
         "project_title": "To-Do List",
-        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/to-do-list",
-        "live" : "https://merja-shourov.github.io/javascript-proejcts/to-do-list/", 
+        "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/to-do-list",
+        "live" : "https://merja-shourov.github.io/javascript-projects/to-do-list/", 
     },
     {
         "id": 8,
         "project_title": "Modal Design",
         "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/modal-design",
-        "live" : "https://merja-shourov.github.io/javascript-proejcts/modal-design/",
+        "live" : "https://merja-shourov.github.io/javascript-projects/modal-design/",
     },
 ]
 
