@@ -14,20 +14,20 @@ const all_info = [
     {
         "id": 4,
         "project_title": "Landing Page( Time Planner )",
-        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/timePlanner-landing",
-        "live" : "https://merja-shourov.github.io/jasascript-projects/timePlanner-landing",
+        "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/timePlanner-landing",
+        "live" : "https://merja-shourov.github.io/javascript-projects/timePlanner-landing",
     },
     {
         "id": 5,
         "project_title": "Landing Page (BeGrocery)",    
-        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/grocery-landing",
-        "live" : "https://merja-shourov.github.io/jasascript-projects/grocery-landing",
+        "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/grocery-landing",
+        "live" : "https://merja-shourov.github.io/javascript-projects/grocery-landing",
     },
     {
         "id": 6,
         "project_title": "Landing Page (Smooth Bekary)",
-        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/bakery-landing",
-        "live" : "https://merja-shourov.github.io/jasascript-projects/bakery-landing/",
+        "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/bakery-landing",
+        "live" : "https://merja-shourov.github.io/javascript-projects/bakery-landing/",
     },
     {
         "id": 7,
@@ -38,7 +38,7 @@ const all_info = [
     {
         "id": 8,
         "project_title": "Modal Design",
-        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/modal-design",
+        "code" : "https://github.com/merja-shourov/javascript-projects/tree/main/modal-design",
         "live" : "https://merja-shourov.github.io/javascript-proejcts/modal-design/",
     },
 ]
