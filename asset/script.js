@@ -14,27 +14,33 @@ const all_info = [
     {
         "id": 4,
         "project_title": "Landing Page( Time Planner )",
-        "code" : "https://github.com/merja-shourov/landing-page-1",
-        "live" : "https://merja-shourov.github.io/landing-page-1/",
+        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/timePlanner-landing",
+        "live" : "https://merja-shourov.github.io/jasascript-projects/timePlanner-landing",
     },
     {
         "id": 5,
         "project_title": "Landing Page (BeGrocery)",    
-        "code" : "https://github.com/merja-shourov/landing-page-2",
-        "live" : "https://merja-shourov.github.io/landing-page-2/",
+        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/grocery-landing",
+        "live" : "https://merja-shourov.github.io/jasascript-projects/grocery-landing",
     },
     {
         "id": 6,
         "project_title": "Landing Page (Smooth Bekary)",
-        "code" : "https://github.com/merja-shourov/landing-page-3",
-        "live" : "https://merja-shourov.github.io/landing-page-3/",
+        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/bakery-landing",
+        "live" : "https://merja-shourov.github.io/jasascript-projects/bakery-landing/",
     },
     {
         "id": 7,
         "project_title": "To-Do List",
         "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/to-do-list",
         "live" : "https://merja-shourov.github.io/javascript-proejcts/to-do-list/", 
-    }
+    },
+    {
+        "id": 8,
+        "project_title": "Modal Design",
+        "code" : "https://github.com/merja-shourov/javascript-proejcts/tree/main/modal-design",
+        "live" : "https://merja-shourov.github.io/javascript-proejcts/modal-design/",
+    },
 ]
 
 const list = document.getElementById("project-list");
